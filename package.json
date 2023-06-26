@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "test": "npm run test-unit",
+    "test": "npm run test-e2e",
+    "test-e2e": "cypress open",
     "test-unit": "jest",
     "format": "prettier -w src/**/*.js",
     "lint": "eslint src/**/*.js --cache --fix",
